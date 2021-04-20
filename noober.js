@@ -37,9 +37,9 @@ document.addEventListener('DOMContentLoaded', async function() {
   let purple = ride.purpleRequested
 
   //Create a string of output to be written to the JavaScript console. 
-  let NooberX = `Noober X Passenger: ${firstname} ${lastname} is requesting a pickup at ${pickupaddress}, ${pickupcity}, ${pickupstate}, ${pickupzip}. There are ${people} in the party. The desired drop-off location is at ${dropaddress}, ${dropcity}, ${dropstate}, ${dropzip}. `
-  let NooberPurple = `Noober Purple Passenger: ${firstname} ${lastname} is requesting a pickup at ${pickupaddress}, ${pickupcity}, ${pickupstate}, ${pickupzip}. There are ${people} in the party. The desired drop-off location is at ${dropaddress}, ${dropcity}, ${dropstate}, ${dropzip}.`
-  let NooberXL = `Noober XL Passenger: ${firstname} ${lastname} is requesting a pickup at ${pickupaddress}, ${pickupcity}, ${pickupstate}, ${pickupzip}. There are ${people} in the party. The desired drop-off location is at ${dropaddress}, ${dropcity}, ${dropstate}, ${dropzip}.`
+  let NooberX = `Noober X Passenger: ${firstname} ${lastname} - (${phone}) is requesting a pickup at ${pickupaddress}, ${pickupcity}, ${pickupstate}, ${pickupzip}. There are ${people} in the party. The desired drop-off location is at ${dropaddress}, ${dropcity}, ${dropstate}, ${dropzip}. `
+  let NooberPurple = `Noober Purple Passenger: ${firstname} ${lastname} - (${phone}) is requesting a pickup at ${pickupaddress}, ${pickupcity}, ${pickupstate}, ${pickupzip}. There are ${people} in the party. The desired drop-off location is at ${dropaddress}, ${dropcity}, ${dropstate}, ${dropzip}.`
+  let NooberXL = `Noober XL Passenger: ${firstname} ${lastname} (${phone}) is requesting a pickup at ${pickupaddress}, ${pickupcity}, ${pickupstate}, ${pickupzip}. There are ${people} in the party. The desired drop-off location is at ${dropaddress}, ${dropcity}, ${dropstate}, ${dropzip}.`
   
   //Use conditional logic for Purple level request
   if (purple == true) {
